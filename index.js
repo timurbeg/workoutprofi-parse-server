@@ -11,7 +11,7 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://workoutprofi:123@ds011399.mlab.com:11399/heroku_b48hrjz1',
+  databaseURI: databaseUri || 'mongodb://workoutprofi:123@ds011409.mlab.com:11409/workoutprofi',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || '0k2OGXmL4eYcOHChgJPsqauPfiiGxBfEK3RGZPyn',
   masterKey: process.env.MASTER_KEY || 'Hk2bYefSTLucSZks5TAaY4jyiefYj2oEtAre3xRY', //Add your master key here. Keep it secret!
